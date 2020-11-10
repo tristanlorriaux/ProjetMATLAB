@@ -1,0 +1,15 @@
+Lm= 2e-3; % H
+Rm = 1; % ohm
+Kem = 2.7e-3; % V/(rad/s)
+f = 6.52e-6; % SI
+tauEm= 16e-3; %s
+J = (Kem*Kem*tauEm)/Rm; %SI
+pente=(8.2-6.9)/5;
+alpha=25; %%
+com = 1000;
+Te = 5e-5;%s
+Ts = 0.5e-6;%s
+tauf = Te*100;%s-1
+gaincan = 2^10/3.3;
+Kc=1.602e-6;
+Kestvit = 1;
